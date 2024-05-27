@@ -29,7 +29,7 @@ const StyledInput = styled('input')({
         fontSize: '0.75rem',
     },
     '&:focus ~ label': {
-        color: '#B0B0B0',
+        color: '#878787',
     },
     '&:-webkit-autofill': {
         alignSelf: 'stretch',
@@ -72,7 +72,7 @@ export default function FloatingLabelInput() {
                 border: 'none',
                 boxShadow: 'none',
                 backgroundColor: '#FFFFFF',
-                borderBottom: '1px solid',
+                borderBottom: '1px solid #E8E8E8',
                 borderRadius: '0px',
                 '--Input-minHeight': '56px',
                 '--Input-radius': '6px',
