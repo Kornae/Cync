@@ -13,6 +13,8 @@ export default function Box2(props) {
             <div id="b2-login">
                 <CardVariants
                     user={props.user}
+                    click={props.click}
+                    click2={props.click2}
                 />
             </div>
 

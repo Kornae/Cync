@@ -16,7 +16,6 @@ export default function CardVariants(props) {
         >
             <Card variant="solid" sx={{ borderRadius: '25px', bgcolor: '#FFFFFF' }}>
                 <CardContent>
-
                     {props.user ? <>
                         <div className='mb-2 mt-3'>
                             <Typography level="title-md" sx={{ fontWeight: '600', fontFamily: 'Poppins' }}>Create new account</Typography>
@@ -24,6 +23,7 @@ export default function CardVariants(props) {
 
                         <InputField2
                             user={props.user}
+                            click2={props.click2}
                         /></> :
                         <>
                             <div className='mb-2 mt-3'>
@@ -31,7 +31,9 @@ export default function CardVariants(props) {
                             </div>
 
                             <InputField
-                                user={props.user} /></>}
+                                user={props.user}
+                                click={props.click}
+                            /></>}
                 </CardContent>
             </Card>
         </Box>

@@ -34,13 +34,14 @@ export default function Box1() {
                 </div>
             </>}
 
-
             <div id="b1-footer" className="bounce-in-bottom ">
                 <GradientCover />
             </div>
 
             <Box2
                 user={userState}
+                click={userLoginState}
+                click2={userLoginState2}
             />
         </div>
     )

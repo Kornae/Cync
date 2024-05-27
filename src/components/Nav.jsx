@@ -1,6 +1,7 @@
 import React from "react";
 import BasicInput from "./Input";
 import { Button } from "@mui/joy";
+import FilterListIcon from '@mui/icons-material/FilterList';
 
 export default function Nav() {
     return (
@@ -9,7 +10,7 @@ export default function Nav() {
                 <div className="container-md">
                     <span id="logo">CYNK</span>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class=""><FilterListIcon /> </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul className="navbar-nav">
@@ -20,7 +21,7 @@ export default function Nav() {
                             <li className="nav-item1"> <BasicInput /></li>
                         </ul>
                     </div>
-                    <li className="nav-item ml-auto"><Button variant="plain" sx={{ borderRadius: '20px', padding: '5px 30px', bgcolor: '#FFBD33', color: '#161616', outline: 'none !important' }} color="neutral">Login</Button></li>
+                    <li className="nav-item ml-auto login-btn"><Button variant="plain" sx={{ borderRadius: '20px', padding: '5px 30px', bgcolor: '#FFBD33', color: '#161616', outline: 'none !important' }} color="neutral">Login</Button></li>
                 </div>
             </nav>
         </div>
