@@ -51,12 +51,14 @@ h1 {
   background-color: #FFFFFF !important;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   border-radius: 20px;
+  padding: 2px;
 }
 
 #search {
-  width: 500px;
-  height: 35px;
+  width: 400px;
+  height: 30px;
   font-family: 'Poppins', sans-serif;
+  font-size: .8rem;
 }
 
 .css-1n8uzod-JoyInput-root:not([data-skip-inverted-colors]) {
@@ -66,24 +68,39 @@ h1 {
 
 .container-md {
   --bs-gutter-x: 0rem;
+  margin: 0px;
 }
 
 .nav-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 10px;
-  font-size: .9rem;
+  margin: 0px 15px;
+  font-size: .8rem;
+}
+
+.active {
+  font-weight: 500 !important;
 }
 
 .nav-link {
-  color: #AFAFAF;
+  color: #a9a9a9;
+  font-weight: 400;
+}
+
+.styl {
+  display: flex;
+  justify-content: left;
 }
 
 .nav-item1 {
-  margin: 0px 30px;
+  padding: 0px;
 }
 
+.nav-link-1 {
+  margin: 0px 5px;
+  padding: 7px;
+}
 
 #logo {
   font-size: 1rem;
@@ -160,7 +177,7 @@ h1 {
 #box2 {
   grid-area: box2;
   border-radius: 25px;
-  background-image: url('https://drawpaintacademy.com/wp-content/uploads/2020/02/Caspar-David-Friedrich-Wanderer-Above-the-Sea-of-Fog-1818-Grayscale.jpg');
+  background-image: url('https://images.unsplash.com/photo-1551041181-cacd7047d18d?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
   background-color: #FFFFFF;
@@ -196,9 +213,9 @@ label.css-lh6vsh {
 }
 
 .css-wiqfzy {
-border-radius: 0px !important;
-margin: 0px -12px !important;
-padding: 16px 12px 0px !important;
+  border-radius: 0px !important;
+  margin: 0px -12px !important;
+  padding: 16px 12px 0px !important;
 }
 
 .forgot-btn {
@@ -243,7 +260,7 @@ padding: 16px 12px 0px !important;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
@@ -392,6 +409,9 @@ padding: 16px 12px 0px !important;
 
 
 @media (max-width: 375px) {
+  .navbar {
+    padding: 10px;
+  }
 
   .login-btn {
     display: none;
@@ -465,13 +485,16 @@ padding: 16px 12px 0px !important;
 }
 
 @media (min-width: 376px) and (max-width: 475px) {
+  .navbar {
+    padding: 11px;
+  }
 
   .login-btn {
     display: none;
   }
 
   #search {
-    width: 30px;
+    width: 40px;
     height: 35px;
   }
 
@@ -537,6 +560,180 @@ padding: 16px 12px 0px !important;
   }
 }
 
-@media (min-width: 476px) and (max-width: 991px) {}
+@media (min-width: 476px) and (max-width: 991px) {
+  .navbar {
+    padding: 12px;
+  }
 
-@media (min-width: 992px) and (max-width: 1024px) {}
+  .login-btn {
+    display: none;
+  }
+
+  #search {
+    height: 35px;
+  }
+
+  #box1 {
+    grid-area: box1;
+    background-color: #F8F8F8;
+    margin: 10px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas: 'b1-title'
+      'box2'
+      'b1-footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 20px;
+    gap: 2rem;
+  }
+
+  #b1-title {
+    grid-area: b1-title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
+  }
+
+  #b1-register {
+    display: none;
+  }
+
+  .name {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .fname,
+  .lname {
+    width: 100% !important;
+  }
+
+  .fname {
+    margin-bottom: 1rem;
+  }
+
+  #box2 {
+    grid-area: box2;
+    border-radius: 25px;
+    background-image: none;
+    display: grid;
+    grid-template-areas: 'login';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #mobile-section {
+    display: contents;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  #b2-title {
+    display: none;
+  }
+
+  #paragraph,
+  #heading {
+    font-size: 1rem;
+  }
+
+  #card {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+  #search {
+    width: 225px;
+    height: 35px;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 7px;
+    font-size: .9rem;
+  }
+
+  #box1 {
+    grid-area: box1;
+    background-color: #F8F8F8;
+    margin: 10px;
+    border-radius: 25px;
+    display: grid;
+    grid-template-areas: 'b1-title'
+      'box2'
+      'b1-footer';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 20px;
+    gap: 2rem;
+  }
+
+  #b1-title {
+    grid-area: b1-title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
+  }
+
+  #b1-register {
+    display: none;
+  }
+
+  .name {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .fname,
+  .lname {
+    width: 100% !important;
+  }
+
+  .fname {
+    margin-bottom: 1rem;
+  }
+
+  #box2 {
+    grid-area: box2;
+    border-radius: 25px;
+    background-image: none;
+    display: grid;
+    grid-template-areas: 'login';
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #mobile-section {
+    display: contents;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  #b2-title {
+    display: none;
+  }
+
+  #paragraph,
+  #heading {
+    font-size: 1.1rem;
+  }
+
+  #card {
+    padding: 20px;
+  }
+}

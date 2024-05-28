@@ -6,8 +6,8 @@ export default function Box2(props) {
         <div id="box2" className="slide-in-right">
             <div id="b2-title" className="flex-display text-focus-in">
                 <div>
-                    <div style={{ fontSize: '1rem', fontWeight: '500', textTransform: 'uppercase' }} id='white-text'>Wanderer above the Sea of Fog</div>
-                    <div style={{ fontSize: '.8rem' }} id='white-text'>Caspar David Friedrich</div>
+                    <div style={{ fontSize: '1.05rem', fontWeight: '500', textTransform: 'uppercase' }} id='white-text'>Eiffel Tower</div>
+                    <div style={{ fontSize: '.9rem' }} id='white-text'>Paris, France</div>
                 </div>
             </div>
             <div id="b2-login">

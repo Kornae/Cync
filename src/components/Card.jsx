@@ -23,10 +23,11 @@ export default function GradientCover() {
             />
             <CardContent sx={{ justifyContent: 'center' }}>
                 <div id='card' style={{ display: 'grid', textAlign: 'left' }}>
-                    <Typography fontFamily='Poppins' fontSize='.9rem' level="title-lg" textColor="#ffffff">
+                    <Typography id='heading' fontFamily='Poppins' fontSize='.9rem' level="title-lg" textColor="#ffffff">
                         About us
                     </Typography>
                     <Typography
+                        id='paragraph'
                         fontFamily='Poppins'
                         textColor="#828181"
                         fontSize='.9rem'
