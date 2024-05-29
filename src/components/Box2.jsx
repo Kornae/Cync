@@ -17,10 +17,6 @@ export default function Box2(props) {
                     click2={props.click2}
                 />
             </div>
-
-            <div id="b2-pages">
-
-            </div>
         </div>
     )
 }
