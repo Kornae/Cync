@@ -32,7 +32,7 @@ export default function InputField2(props) {
                 <p className='forgot-btn'>Already have account?</p>
 
                 <div className='mb-3'>
-                    <button onClick={props.click2} style={{ fontFamily: 'Poppins', maxWidth: 200, borderRadius: '15px', backgroundColor: 'transparent', color: '#000000', boxShadow: 'none' }} className="button-27" type="button">Sign in <EastIcon sx={{ ml: 1 }} fontSize="xsmall" /></button>
+                    <button onClick={props.click2} style={{ fontFamily: 'Figtree', maxWidth: 200, borderRadius: '15px', backgroundColor: 'transparent', color: '#000000', boxShadow: 'none' }} className="button-27" type="button">Sign in <EastIcon sx={{ ml: 1 }} fontSize="xsmall" /></button>
                 </div>
             </div>
         </FormControl>

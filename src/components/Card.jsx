@@ -23,14 +23,14 @@ export default function GradientCover() {
             />
             <CardContent sx={{ justifyContent: 'center' }}>
                 <div id='card' style={{ display: 'grid', textAlign: 'left' }}>
-                    <Typography id='heading' fontFamily='Poppins' fontSize='.9rem' level="title-lg" textColor="#ffffff">
+                    <Typography id='heading' fontFamily='Figtree' fontSize='1.1rem' level="title-lg" textColor="#ffffff">
                         About us
                     </Typography>
                     <Typography
                         id='paragraph'
-                        fontFamily='Poppins'
+                        fontFamily='Figtree'
                         textColor="#828181"
-                        fontSize='.9rem'
+                        fontSize='1rem'
                     >
                         Dive into a vast reservoir of creativity with over <span className='highlights'>2 million</span> pieces of <span className='highlights'>high-quality</span> artwork, generously provided by the world's most generous community of <span className='highlights'>artists.</span>
                     </Typography>

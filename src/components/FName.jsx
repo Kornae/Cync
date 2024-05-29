@@ -48,7 +48,7 @@ const StyledLabel = styled('label')(({ theme }) => ({
     position: 'absolute',
     lineHeight: 1,
     top: 'calc((var(--Input-minHeight) - 1em) / 2)',
-    color: '#B0B0B0',
+    color: '#898989',
     fontWeight: theme.vars.fontWeight.md,
     transition: 'all 150ms cubic-bezier(0.4, 0, 0.2, 1)',
 }));

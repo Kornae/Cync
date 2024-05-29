@@ -26,7 +26,7 @@ export default function InputField(props) {
                 <p className='forgot-btn'>Don't have account?</p>
 
                 <div className='mb-3'>
-                    <button onClick={props.click} style={{ fontFamily: 'Poppins', maxWidth: 200, borderRadius: '15px', backgroundColor: 'transparent', color: '#000000', boxShadow: 'none' }} className="button-27" type="button">Create account <EastIcon sx={{ ml: 1 }} fontSize="xsmall" /></button>
+                    <button onClick={props.click} style={{ fontFamily: 'Figtree', maxWidth: 200, borderRadius: '15px', backgroundColor: 'transparent', color: '#000000', boxShadow: 'none' }} className="button-27" type="button">Create account <EastIcon sx={{ ml: 1 }} fontSize="xsmall" /></button>
                 </div>
             </div>
         </FormControl>

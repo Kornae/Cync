@@ -15,13 +15,13 @@ export default function Nav() {
                 <div class="collapse navbar-collapse ms-auto" id="navbarText">
                     <ul className="navbar-nav">
                         <li className="nav-item"><span className="nav-link">Home</span></li>
-                        <li className="nav-item"><span className="nav-link active">Get Started <KeyboardArrowDownOutlinedIcon fontSize="small" /></span></li>
+                        <li className="nav-item"><span className="nav-link active">Get Started <KeyboardArrowDownOutlinedIcon fontSize="xsmall" /></span></li>
                         <li className="nav-item"><span className="nav-link">About</span></li>
                         <li className="nav-item"><span className="nav-link">Forum</span></li>
                         <li className="nav-item1"><span className="nav-link nav-link-1"><BasicInput /></span></li>
                     </ul>
                 </div>
-                <span id="logo" className="login-btn"><Button variant="plain" sx={{ borderRadius: '20px', padding: '5px 30px', bgcolor: '#bfd7ff', color: '#161616', outline: 'none !important', fontSize: '.8rem' }} color="neutral">Login</Button></span>
+                <span id="logo" className="login-btn"><Button variant="plain" sx={{ borderRadius: '20px', padding: '5px 30px', bgcolor: '#9CDEFF', color: '#161616', outline: 'none !important', fontSize: '.8rem' }} color="neutral">Login</Button></span>
             </nav>
         </div>
     )

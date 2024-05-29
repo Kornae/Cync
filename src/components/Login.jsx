@@ -18,7 +18,7 @@ export default function CardVariants(props) {
                 <CardContent>
                     {props.user ? <>
                         <div className='mb-2 mt-3'>
-                            <Typography level="title-md" sx={{ fontWeight: '600', fontFamily: 'Poppins' }}>Create new account</Typography>
+                            <Typography level="title-md" sx={{ fontWeight: '600', fontFamily: 'Figtree' }}>Create new account</Typography>
                         </div>
                         <InputField2
                             user={props.user}
@@ -26,7 +26,7 @@ export default function CardVariants(props) {
                         /></> :
                         <>
                             <div className='mb-2 mt-3'>
-                                <Typography level="title-md" sx={{ fontWeight: '600', fontFamily: 'Poppins' }}>Login to your account</Typography>
+                                <Typography level="title-md" sx={{ fontWeight: '600', fontFamily: 'Figtree' }}>Login to your account</Typography>
                             </div>
                             <InputField
                                 user={props.user}
